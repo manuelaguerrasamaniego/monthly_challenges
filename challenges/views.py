@@ -12,7 +12,7 @@ def monthly_challenge(request, month):
     if month == "january":
         challenge_text = "Do things you used to love as a child!"
     elif month == "february":
-        challenge_text = "Go out of your comfort zone!"
+        challenge_text = "Get out of your comfort zone!"
     else:
         return HttpResponseNotFound("This month is not supported!")
     return HttpResponse(challenge_text)
