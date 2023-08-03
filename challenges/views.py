@@ -15,7 +15,7 @@ monthly_challenges = {
     "september":"Cook something new!",
     "october":"Visit a local attraction!",
     "november":"Teach yourself some sentences in a foreign language!",
-    "december":"Make a diy project!"
+    "december": None
 
 }
 
